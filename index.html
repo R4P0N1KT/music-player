@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="https://kit.fontawesome.com/cf6a4195c3.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>player music</title>
+</head>
+
+<body>
+
+    <main class="container">
+        <section>
+            <div class="music-player">
+                <img src="imagens/magoas.png">
+                <div class="description">
+                    <h2></h2>
+                    <i></i>
+                </div>
+                <div class="duration">
+                    <div class="bar">
+                        <progress value="0" max="1"></progress>
+                        <div class="time-point"></div>
+                    </div>
+                    <div class="time">
+                        <div class="player">
+                            <p class="start-time">0:00</p>
+                            <i class="fas fa-step-backward arrrows backward"></i>
+                            <i class="fas fa-play-circle button-play"></i>
+                            <i class="fas fa-pause-circle button-pause"></i>
+                            <i class="fas fa-step-forward arrrows next"></i>
+                            <p class="end">3:40</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <audio src="musics/magoas.mp3"></audio>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>

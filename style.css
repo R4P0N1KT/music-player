@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+}
+
+.container {
+    background-color: #2B3A55;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+section {
+    background-color: #F2E5E5;
+    color: #CE7777;
+    padding: 1rem;
+    border-radius: 16px;
+}
+
+.music-player {
+    padding: 2rem;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 16px;
+    padding: 0.5rem;
+    background-color: #E8C4C4;
+}
+
+h2 {
+    margin-bottom: 1rem;
+}
+
+.duration {
+    margin-top: 0.156rem;
+}
+
+.bar {
+    height: 10px;
+    border: 1px solid #DBA39A;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+progress {
+    height: 0.375rem;
+    background-color: #DBA39A;
+}
+
+.player {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.button-play, .button-pause {
+    cursor: pointer;
+}
+
+.time-point {
+    width: 15px;
+    height: 15px;
+    border-radius: 10px;
+    background-color: #DBA39A;
+    margin-left: -8px;
+}
+
+.arrows {
+    cursor: pointer;
+}
+
+.fas {
+    font-size: 30px;
+}
+
+.bottom-pause {
+    display: none;
+}
